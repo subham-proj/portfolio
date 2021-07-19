@@ -2,6 +2,10 @@ import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import { Card, Col, Container, Form, Row, Button } from "react-bootstrap";
 
+const user_id = process.env.REACT_APP_USER_ID;
+const service_id = process.env.REACT_APP_SERVICE_ID;
+const template_id = process.env.REACT_APP_TEMPLATE_ID;
+
 function Contact() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -16,22 +20,15 @@ function Contact() {
       email: email,
       phone: phone,
     };
-    emailjs
-      .send(
-        "gmail",
-        "template_goih96e",
-        templateParams,
-        "user_ckjUHrBkDsW2rcM9dp8mS"
-      )
-      .then(
-        function (response) {
-          alert("Your message has been successfully delivered!");
-          console.log("SUCCESS!", response.status, response.text);
-        },
-        function (error) {
-          console.log("FAILED...", error);
-        }
-      );
+    emailjs.send(service_id, template_id, templateParams, user_id).then(
+      function (response) {
+        alert("Your message has been successfully delivered!");
+        console.log("SUCCESS!", response.status, response.text);
+      },
+      function (error) {
+        console.log("FAILED...", error);
+      }
+    );
 
     setName("");
     setEmail("");
