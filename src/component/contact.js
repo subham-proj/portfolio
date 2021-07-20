@@ -38,7 +38,7 @@ function Contact() {
 
   return (
     <div>
-      <Container style={{ paddingTop: "40px", paddingBottom: "40px" }}>
+      <Container className="form_card">
         <Card className="contact">
           <Card.Body>
             <h3 style={{ textAlign: "center", paddingBottom: "40px" }}>

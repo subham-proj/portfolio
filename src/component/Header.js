@@ -1,34 +1,37 @@
 import React from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
 
+import { Link } from "react-router-dom";
+
 function Header() {
   return (
     <div>
       <Navbar sticky="top" expand="lg">
         <Container>
           <Navbar.Brand
+            as={Link}
+            to="/"
             style={{ color: "goldenrod" }}
             className="navLink"
-            href="/"
           >
             Portfolio.
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto ">
-              <Nav.Link className="navLink" href="/">
+              <Nav.Link as={Link} to="/" className="navLink">
                 Home
               </Nav.Link>
-              <Nav.Link className="navLink" href="/about">
+              <Nav.Link as={Link} to="/about" className="navLink">
                 About
               </Nav.Link>
-              <Nav.Link className="navLink" href="/projects">
+              <Nav.Link as={Link} to="/projects" className="navLink">
                 Projects
               </Nav.Link>
-              <Nav.Link className="navLink" href="/blogs">
+              <Nav.Link as={Link} to="/blogs" className="navLink">
                 Blogs
               </Nav.Link>
-              <Nav.Link className="navLink" href="/contact">
+              <Nav.Link as={Link} to="/contact" className="navLink">
                 Contact
               </Nav.Link>
             </Nav>
