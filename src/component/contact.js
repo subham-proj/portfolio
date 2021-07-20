@@ -41,7 +41,13 @@ function Contact() {
       <Container className="form_card">
         <Card className="contact">
           <Card.Body>
-            <h3 style={{ textAlign: "center", paddingBottom: "40px" }}>
+            <h3
+              style={{
+                textAlign: "center",
+                paddingBottom: "40px",
+                color: "goldenrod",
+              }}
+            >
               Send me a message
             </h3>
             <Form onSubmit={sendForm}>
@@ -102,7 +108,7 @@ function Contact() {
               </Row>
 
               <div className="d-grid gap-2">
-                <Button type="submit" variant="primary" size="lg">
+                <Button type="submit" size="lg">
                   Submit
                 </Button>
               </div>
