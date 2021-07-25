@@ -6,9 +6,7 @@ function TimeLine() {
     <div>
       <div className="wrapper">
         <div className="center-line">
-          <a href="#" className="scroll-icon">
-            <i className="icon fas fa-caret-up"></i>
-          </a>
+          <i className=" scroll-icon icon fas fa-caret-up"></i>
         </div>
         <Row className="row-1">
           <section>

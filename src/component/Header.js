@@ -8,11 +8,7 @@ function Header() {
     <div>
       <Navbar sticky="top" expand="lg">
         <Container>
-          <Navbar.Brand
-            to="/"
-            style={{ color: "goldenrod" }}
-            className="navLink"
-          >
+          <Navbar.Brand style={{ color: "goldenrod" }} className="navLink">
             Portfolio.
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

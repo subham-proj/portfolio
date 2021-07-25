@@ -19,7 +19,7 @@ function ProjectCard({ data }) {
           <div className="d-grid gap-2">
             {data.live ? (
               <Button href={data.live} target="_blank" size="lg">
-                Live
+                Live Project
               </Button>
             ) : (
               <OverlayTrigger
@@ -27,7 +27,7 @@ function ProjectCard({ data }) {
                 delay={{ show: 250, hide: 500 }}
                 overlay={renderTooltip}
               >
-                <Button size="lg">Live</Button>
+                <Button size="lg">Live Project</Button>
               </OverlayTrigger>
             )}
 
@@ -36,9 +36,10 @@ function ProjectCard({ data }) {
                 href={data.code}
                 target="_blank"
                 className="repo-btn"
+                variant="dark"
                 size="lg"
               >
-                Respository
+                Source Code
               </Button>
             ) : (
               <OverlayTrigger
@@ -46,8 +47,8 @@ function ProjectCard({ data }) {
                 delay={{ show: 250, hide: 500 }}
                 overlay={renderTooltip}
               >
-                <Button className="repo-btn" size="lg">
-                  Respository
+                <Button className="repo-btn" variant="dark" size="lg">
+                  Source Code
                 </Button>
               </OverlayTrigger>
             )}

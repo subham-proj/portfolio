@@ -5,6 +5,7 @@ import PCard from "./projectCard";
 import pic1 from "../../assets/proj1.png";
 import pic2 from "../../assets/proj2.png";
 import pic3 from "../../assets/proj3.png";
+import pic4 from "../../assets/proj4.png";
 
 const s = [
   {
@@ -33,6 +34,15 @@ const s = [
     image: pic3,
     live: "http://cf-analyzer.netlify.app/",
     code: "https://github.com/subham-proj/cf-analyzer",
+  },
+  {
+    id: "4",
+    name: "Blogging Web App",
+    description:
+      "This is a Full Stack blogging web app developed in MERN Stack. It has User authentication feature and user can perform CRUD operations in the blogs",
+    image: pic4,
+    live: "https://blogging-web-app.netlify.app/",
+    code: "https://github.com/subham-proj/blogging",
   },
 ];
 

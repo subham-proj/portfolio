@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Card } from "react-bootstrap";
-import { TwitterTimelineEmbed } from "react-twitter-embed";
+// import { TwitterTimelineEmbed } from "react-twitter-embed";
 import Techs from "./technolgies";
 import Timeline from "./Timeline";
 
