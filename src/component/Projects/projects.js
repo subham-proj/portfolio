@@ -6,6 +6,7 @@ import pic1 from "../../assets/proj1.png";
 import pic2 from "../../assets/proj2.png";
 import pic3 from "../../assets/proj3.png";
 import pic4 from "../../assets/proj4.png";
+import pic5 from "../../assets/proj5.png";
 
 const s = [
   {
@@ -49,7 +50,7 @@ const s = [
     name: "Buy My Cookies",
     description:
       "This is a platform where you can participate in an auction to buy/sell cookies. This auction platform is developed in MERN stack",
-    image: pic4,
+    image: pic5,
     live: "https://buymycookies.netlify.app/",
     code: "https://github.com/subham-proj/buymycookies",
   },
