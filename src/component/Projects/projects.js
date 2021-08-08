@@ -44,6 +44,15 @@ const s = [
     live: "https://blogging-web-app.netlify.app/",
     code: "https://github.com/subham-proj/blogging",
   },
+  {
+    id: "5",
+    name: "Buy My Cookies",
+    description:
+      "This is a platform where you can participate in an auction to buy/sell cookies. This auction platform is developed in MERN stack",
+    image: pic4,
+    live: "https://buymycookies.netlify.app/",
+    code: "https://github.com/subham-proj/buymycookies",
+  },
 ];
 
 function Projects() {
