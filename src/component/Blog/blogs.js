@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Container } from "react-bootstrap";
+import { TwitterTimelineEmbed } from "react-twitter-embed";
 
 import BlogCard from "./blogCard";
 
@@ -29,10 +30,19 @@ function Blogs() {
   }
 
   return (
-    <Container style={{ paddingTop: "50px", paddingBottom: "50px" }}>
-      {myBlog.map((it) => (
-        <BlogCard data={it} recent={recentPosts} />
-      ))}
+    <Container>
+      <div className="tweet">
+        <TwitterTimelineEmbed
+          sourceType="profile"
+          screenName="subhamtw"
+          options={{ height: 400, width: 800 }}
+        />
+      </div>
+      <div style={{ paddingTop: "50px", paddingBottom: "50px" }}>
+        {myBlog.map((it) => (
+          <BlogCard data={it} recent={recentPosts} />
+        ))}
+      </div>
     </Container>
   );
 }

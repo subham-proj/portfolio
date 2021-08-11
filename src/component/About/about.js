@@ -1,8 +1,7 @@
 import React from "react";
 import { Container, Card } from "react-bootstrap";
-// import { TwitterTimelineEmbed } from "react-twitter-embed";
-import Techs from "./technolgies";
 import Timeline from "./Timeline";
+import GithubProfile from "./githubProfile";
 
 function About() {
   return (
@@ -10,19 +9,11 @@ function About() {
       <Container style={{ paddingTop: "40px", paddingBottom: "40px" }}>
         <Card className="about_card">
           <Card.Body>
+            <GithubProfile />
             <h4 style={{ textAlign: "center", color: "goldenrod" }}>
               Academic Timeline
             </h4>
             <Timeline />
-
-            <Techs />
-            {/**<div className="tweet">
-              <TwitterTimelineEmbed
-                sourceType="profile"
-                screenName="subhamtw"
-                options={{ height: 400, width: 600 }}
-              />
-  </div>*/}
           </Card.Body>
         </Card>
       </Container>
