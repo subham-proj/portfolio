@@ -14,15 +14,15 @@
 
 <br>
 
-<p align="center">&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=subham-proj&show_icons=true&locale=en" alt="subham-proj" /></p>
+<p align="center">&nbsp;<img align="center" style="box-shadow: 0 1px 1px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.12), 0 4px 4px rgba(0,0,0,0.12), 0 8px 8px rgba(0,0,0,0.12),0 16px 16px rgba(0,0,0,0.12);" src="https://github-readme-stats.vercel.app/api?username=subham-proj&show_icons=true&locale=en" alt="subham-proj" /></p>
 
 <br>
 
-<p align="center"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=subham-proj" alt="subham-proj" /></p>
+<p align="center"><img align="center" style="box-shadow: 0 1px 1px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.12), 0 4px 4px rgba(0,0,0,0.12), 0 8px 8px rgba(0,0,0,0.12),0 16px 16px rgba(0,0,0,0.12);" src="https://github-readme-stats.vercel.app/api/top-langs/?username=subham-proj" alt="subham-proj" /></p>
 
 <br>
 
-<p align="center"><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=subham-proj&" alt="subham-proj" /></p>
+<p align="center"><img align="center" style="box-shadow: 0 1px 1px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.12), 0 4px 4px rgba(0,0,0,0.12), 0 8px 8px rgba(0,0,0,0.12),0 16px 16px rgba(0,0,0,0.12);" src="https://github-readme-streak-stats.herokuapp.com/?user=subham-proj&" alt="subham-proj" /></p>
 <br>
 <br>
 <br>
